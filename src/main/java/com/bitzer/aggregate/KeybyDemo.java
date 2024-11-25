@@ -1,6 +1,6 @@
-package com.atguigu.aggregate;
+package com.bitzer.aggregate;
 
-import com.atguigu.bean.WaterSensor;
+import com.bitzer.bean.WaterSensor;
 import org.apache.flink.api.java.functions.KeySelector;
 import org.apache.flink.streaming.api.datastream.DataStreamSource;
 import org.apache.flink.streaming.api.datastream.KeyedStream;

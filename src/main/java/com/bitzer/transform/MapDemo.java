@@ -1,7 +1,7 @@
-package com.atguigu.transform;
+package com.bitzer.transform;
 
-import com.atguigu.bean.WaterSensor;
-import com.atguigu.functions.MapFunctionImpl;
+import com.bitzer.bean.WaterSensor;
+import com.bitzer.functions.MapFunctionImpl;
 import org.apache.flink.streaming.api.datastream.DataStreamSource;
 import org.apache.flink.streaming.api.datastream.SingleOutputStreamOperator;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;

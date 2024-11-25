@@ -1,6 +1,6 @@
-package com.atguigu.functions;
+package com.bitzer.functions;
 
-import com.atguigu.bean.WaterSensor;
+import com.bitzer.bean.WaterSensor;
 import org.apache.flink.api.common.functions.FilterFunction;
 
 public class FilterFunctionImpl implements FilterFunction<WaterSensor> {

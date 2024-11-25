@@ -1,4 +1,4 @@
-package com.atguigu.bean;
+package com.bitzer.bean;
 
 import java.util.Objects;
 

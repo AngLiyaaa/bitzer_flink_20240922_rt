@@ -1,6 +1,6 @@
-package com.atguigu.transform;
+package com.bitzer.transform;
 
-import com.atguigu.bean.WaterSensor;
+import com.bitzer.bean.WaterSensor;
 import org.apache.flink.api.common.functions.FlatMapFunction;
 import org.apache.flink.streaming.api.datastream.DataStreamSource;
 import org.apache.flink.streaming.api.datastream.SingleOutputStreamOperator;
