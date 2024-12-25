@@ -38,12 +38,6 @@ public class gaodianya_sql {
                         "SELECT * FROM kafka_source WHERE Test_GUID != 'Test GUID'"
         );
 
-        // 创建一个视图，过滤掉标题行
-        tableEnv.executeSql(
-                "CREATE VIEW filtered_view AS " +
-                        "SELECT * FROM kafka_source WHERE Test_GUID != 'Test GUID'"
-        );
-
         // 使用自定义的TableFunction来合并两条记录
         tableEnv.createTemporaryFunction("mergeSteps", MergeStepsFunction.class);
 
