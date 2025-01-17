@@ -78,16 +78,17 @@
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/com.microsoft.sqlserver/mssql-jdbc -->
-        <dependency>
-            <groupId>com.microsoft.sqlserver</groupId>
-            <artifactId>mssql-jdbc</artifactId>
-            <version>12.8.1.jre8</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>com.microsoft.sqlserver</groupId>-->
+<!--            <artifactId>mssql-jdbc</artifactId>-->
+<!--            <version>12.8.1.jre8</version>-->
+<!--        </dependency>-->
 
+        <!-- https://mvnrepository.com/artifact/com.ververica/flink-sql-connector-sqlserver-cdc -->
         <dependency>
-            <groupId>org.apache.flink</groupId>
-            <artifactId>flink-connector-sqlserver-cdc</artifactId>
-            <version>3.2.1</version>
+            <groupId>com.ververica</groupId>
+            <artifactId>flink-sql-connector-sqlserver-cdc</artifactId>
+            <version>3.0.1</version>
         </dependency>
 
         <dependency>
@@ -95,6 +96,22 @@
             <artifactId>json</artifactId>
             <version>20240303</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>4.5.13</version>
+        </dependency>
+
+        <!--
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.2.11</version>
+        </dependency>
+        &lt;!&ndash;加了这个包多了很多日志，但是不报缺少log4j了，实在看不清结果先注释掉了，节省时间暂时不考虑如何关闭&ndash;&gt;
+        -->
+
     </dependencies>
 
     <build>
